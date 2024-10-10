@@ -1,8 +1,1 @@
-titanic=read.csv("train.csv")
-head(titanic)
-Our dataset contains all the columns like name, age, gender of the passenger and class they have traveled in, whether they have survived or not, etc. To understand the class(data type) of each column sapply() method can be used.
-sapply(train, class)
-We can categorize the value “survived” into “dead” to 0 and “alive” to 1 using factor() function.
-train$Survived=as.factor(train$Survived)
-train$Sex=as.factor(train$Sex)
-sapply(train, class)
+
